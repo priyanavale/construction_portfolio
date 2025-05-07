@@ -1,0 +1,132 @@
+*{
+padding: 0px;
+margin: 0px;
+
+} 
+.menu{
+height: auto;
+width: 100%;
+float: left;
+position: sticky;
+top:0px;
+
+}
+
+.header_area1 img{
+height: 90px;
+width: 130px;
+float: left;
+margin-left: 1%;
+margin-top: 1px;
+}  
+
+.hover_change1:hover
+{
+color: green !important;
+cursor: pointer;
+border-bottom: solid 3px red;
+}
+
+@media(max-width:667px){
+
+.navoverlap{
+
+	position: absolute;
+	top:80px;
+	right: 45px;
+}   
+}
+.section1{
+height: 700px;
+width: 100%;
+float: left;
+background-image: url(home.jpeg);
+border: none;
+background-size: cover;
+} 
+
+
+.section11{
+height: 640px;
+width: 100%;
+float: left;
+background-color:rgba(74, 83, 95, 0.3)
+}
+.hover_effect:hover{
+background-color: #003333 !important;
+cursor: pointer;
+border: solid 1px yellow;62
+
+}
+.hover_img:hover{
+
+background-image: url(slide3.jpeg);
+cursor: pointer;
+
+}
+
+
+.hover_img1:hover{
+
+background-image: url(img2.jpeg);
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: cover;
+color:PaleGreen;
+}
+
+
+
+.hover_img2:hover{
+
+background-image: url(img1.jpeg);
+cursor: pointer;
+background-repeat: no-repeat;
+background-size: cover;
+}    
+.baground_img{
+background-image: url(baground2.jpeg3);
+
+} 
+.Touch_with_us{
+
+background-image: url(connet.jpeg);
+height: auto;
+width: 100%;
+background-repeat:no-repeat ;
+background-size: cover;
+} 
+@media(max-width:667px){
+.Touch_with_us{
+height:auto; 
+}
+
+
+}
+
+.transparency1{
+background-color: rgba(74, 83, 95, 0.5);
+
+}  
+.form1{
+height: 60px;
+width: 35%;
+margin-left: 30%;
+background-color: chocolate;
+
+} 
+.form1:hover{ 
+background-color:green;
+}
+.card_hover:hover{
+background-color: chocolate;
+border: solid 3px yellow;
+border-radius: 10px;
+}
+
+
+.chat-icon { position: absolute; top: 50%; right: 20px; background: #007bff; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); font-size: 24px; }
+        .chat-container { display: none; width: 300px; border: 1px solid #ccc; padding: 10px; position: absolute; top: 60px; right: 20px; background: white; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .chat-box { height: 200px; overflow-y: auto; border-bottom: 1px solid #ccc; padding: 5px; }
+        .chat-input { width: 100%; padding: 5px; }
+        .chat-message { margin: 5px 0; }

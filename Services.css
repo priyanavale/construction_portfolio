@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px; 
+}
+
+.menu {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.section1 {
+  height: 350px;
+  width: 100%;
+  background-image: url('servi3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hover_change1:hover {
+  color: green !important;
+  cursor: pointer;
+  border-bottom: solid 3px red;
+}
+
+.section1 h1:hover {
+  color: green !important;
+}
+
+.section1 p:hover {
+  color: yellow !important;
+}
+
+@media (max-width: 667px) {
+  .navoverlap {
+    position: absolute;
+    top: 80px;
+    right: 45px;
+  }   
+}
+
+.img_area1 {
+  background-image: url('vector-technology-.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

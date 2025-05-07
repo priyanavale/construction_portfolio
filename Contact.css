@@ -1,0 +1,50 @@
+*{
+padding: 0px;
+margin: 0px;
+
+} 
+.menu{
+
+position: sticky;
+top:0px;
+z-index:1;
+}
+
+.hover_change1:hover
+{
+color: green !important;
+cursor: pointer;
+border-bottom: solid 3px red;
+} 
+
+@media(max-width:667px){
+
+.navoverlap{
+
+	position: absolute;
+	top:80px;
+	right: 45px;
+}   
+} 
+
+
+.contact_img
+{
+background-image:url(Screenshot_connet.jpeg);
+height: 600px;
+width: 100%;	
+float: left;
+} 
+.box{
+height: 300px;
+width: 400px;
+float: left;
+margin-top: 5%;
+
+background-color: rgba(110, 71, 91, 0.2);
+
+} 
+.box:hover{
+color: chocolate;
+cursor: pointer;	
+}

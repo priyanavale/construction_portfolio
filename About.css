@@ -1,0 +1,89 @@
+/* General Reset for all elements */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Navbar Hover Effect Fix */
+.hover_change1:hover {
+  color: green !important;
+  cursor: pointer;
+  border-bottom: solid 3px red;
+}
+
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+/* Make hover effects smoother */
+.navbar-nav .nav-item.active .nav-link {
+  color: green !important; /* Keep active link color green */
+  border-bottom: 3px solid red !important; /* Make the active link style distinct */
+}
+
+@media(max-width: 667px) {
+  .navoverlap {
+    position: fixed; /* Fixed position on mobile */
+    top: 80px;
+    right: 15px; /* Adjust the right to avoid overflow */
+    z-index: 1000; /* Keep the navbar above all other content */
+  }
+}
+
+.section11 {
+  height: 200px;
+  width: 100%;
+  background-image: url(R.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Added to make sure the background is centered */
+}
+
+/* .transition1 with better animation */
+.transition1 {
+  height: 230px;
+  width: 70%;
+  float: left;
+  background-color: lightgrey;
+  margin-left: 5%;
+  animation-name: ani;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; /* Make the animation run indefinitely */
+  animation-direction: alternate;
+  position: relative;
+  bottom: 100px; /* Optional, adjust based on layout */
+}
+
+@keyframes ani {
+  0% {
+    top: 0px;
+    left: 0px;
+    background-color: lightcyan;
+  }
+  100% {
+    top: 90px;
+    left: 0px;
+    background-color: lightsalmon;
+  }
+}
+
+/* Mobile responsiveness for images and content */
+@media (max-width: 767px) {
+  .transition1 {
+    width: 100%; /* Adjust width on smaller screens */
+    margin-left: 0; /* Remove left margin */
+    bottom: 0; /* Adjust bottom positioning */
+  }
+
+  /* Ensure images scale properly on mobile */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}

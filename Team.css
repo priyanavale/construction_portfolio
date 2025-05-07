@@ -1,0 +1,69 @@
+*{
+padding: 0px;
+margin: 0px;
+
+} 
+
+.menu{
+
+position: sticky;
+top:0px;
+z-index:1;
+}
+
+.hover_change1:hover
+{
+color: green !important;
+cursor: pointer;
+border-bottom: solid 3px red;
+}
+
+
+ /*@media(max-width:667px){
+
+.navoverlap{
+
+	position: absolute;
+	top:80px;
+	right: 45px;
+}   
+} 
+*/
+
+
+
+.img_height img{
+height: 620px!important;
+
+} 
+.carousel-control-prev, .carousel-control-next {
+    display: block !important;
+}
+/*.founder_bag{
+float: left;
+background-image: url(img2.jpeg);
+
+} 
+
+*/ 
+
+.founder_bag:hover{
+float: left;
+background-image: url(img2.jpeg);
+color: white !important;
+cursor: pointer;
+border: solid 2px gray;
+} 
+
+.founder_bag1:hover{
+color: chocolate; !important;
+cursor: pointer;
+background-color: lightcyan !important;
+
+} 
+
+.table_img{
+background-image: url(wp8414112.jpeg);
+
+
+}
